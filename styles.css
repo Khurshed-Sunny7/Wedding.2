@@ -1,0 +1,133 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#EEEEEE;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Вертикальное выравнивание по верхнему краю */
+    width: 100%;
+    height: %;
+    filter: drop-shadow(10px 10px 40px #9E9E9E)
+}
+.fade-in {
+    opacity: 0; /* Начальная прозрачность */
+    animation: fadeInAnimation 2s forwards; /* Применяем анимацию */
+}
+@keyframes fadeInAnimation {
+    to {
+        opacity: 1; /* Конечная прозрачность */
+    }
+}
+
+.invitation {
+    opacity: 0; /* Начальная прозрачность */
+    animation: fadeInAnimation 6s forwards; /* Применяем анимацию */
+}
+@keyframes fadeInAnimation {
+    to {
+        opacity: 1; /* Конечная прозрачность */
+    }
+}
+
+
+
+.container {
+    max-width: 8000px;
+    background:#EEEEEE;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5em;
+    color: gold;
+    text-shadow: 2px 2px 2px rgb(143, 73, 3);
+    opacity: 0; /* Начальная прозрачность */
+    animation: fadeInAnimation 4s forwards; /* Применяем анимацию */
+}
+@keyframes fadeInAnimation {
+    to {
+        opacity: 1; /* Конечная прозрачность */
+    }
+
+
+}
+
+main {
+    margin: 20px 0;
+}
+
+.invitation p {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 2.5em;
+    margin: 1 em ;
+}
+
+.invitation .date {
+    font-family: "Great Vibes", cursive;
+    font-size: 3em;
+    color: gold;
+    text-shadow: 2px 2px 2px rgb(169, 85, 0);
+    
+}
+
+.invitation .names {
+    font-family: "Great Vibes", cursive;
+    font-size: 7em;
+    color: #c791b2;
+    margin-top: 0.5em;
+}
+
+.details {
+    margin-top: 2em;
+    text-align: center;
+    opacity: 0; /* Начальная прозрачность */
+    animation: fadeInAnimation 8s forwards; /* Применяем анимацию */
+}
+@keyframes fadeInAnimation {
+    to {
+        opacity: 1; /* Конечная прозрачность */
+    }
+
+}
+
+.details h2 {
+    font-size: 1.8em;
+    color: #464640;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    margin-top: 2em;
+    font-size: 0.9em;
+    color: #555;
+}
+
+footer a {
+    color: #6b705c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
